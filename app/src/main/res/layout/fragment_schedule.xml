@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    tools:context=".fragments.ScheduleFragment"
+    android:background="@drawable/clockredesign3"
+    tools:ignore="ExtraText">
+
+
+    <TextView
+        android:id="@+id/selectTime"
+        android:layout_width="382dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="325dp"
+        android:text="Select Time"
+        android:fontFamily="@font/sfproblack"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#151C45"
+        android:textSize="40sp"
+      />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/setAlarm"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="250dp"
+            android:padding="8dp"
+            android:text="Set\nAlarm"
+            android:fontFamily="@font/sfpro"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/cancelAlarm"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="250dp"
+            android:layout_marginEnd="40dp"
+            android:padding="8dp"
+            android:fontFamily="@font/sfpro"
+            android:text="Cancel\nAlarm"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

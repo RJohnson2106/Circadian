@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.TipsFragment"
+    android:background="#1E2B71"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="55dp"
+        android:text="Improve Your Sleep Score!"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:fontFamily="@font/sfproblack"
+        android:textSize="32dp"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="175dp"
+        android:text="-Darken all of your lights"
+        android:fontFamily="@font/sfpro"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="225dp"
+        android:gravity="center"
+        android:text="-Turn off and put away all electronics"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/sfpro"
+        android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/sfpro"
+        android:paddingTop="275dp"
+        android:gravity="center"
+        android:text="-Keep your room quiet"
+        android:textColor="#FFFFFF"
+        android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/sfpro"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="325dp"
+        android:gravity="center"
+        android:text="-Keep your room at an optimal sleep temperature of between 60 to 68 degrees Fahrenheit"
+        android:textColor="#FFFFFF"
+        android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/sfpro"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="425dp"
+        android:gravity="center"
+        android:text="-Avoid eating two to four hours before you sleep"
+        android:textColor="#FFFFFF"
+        android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/sfpro"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:paddingTop="500dp"
+        android:text="-Be physically active throughout the daytime, as it will help you fall asleep more easily at night"
+        android:textColor="#FFFFFF"
+        android:textSize="24dp" />
+
+    <ImageView
+        android:paddingTop="600dp"
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/circadianlogostars2" />
+
+</RelativeLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.TrackerFragment"
+    android:background="#1E2B71"
+    >
+
+    <Button
+        android:id="@+id/search_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="700dp"
+        android:fontFamily="@font/sfpro"
+        android:text="Search For Devices"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/accelerometerDataTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/sfpromed"
+        android:layout_marginTop="470dp"
+        android:text="Arduino Data Will Appear Here"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/ArduinoStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="510dp"
+        android:text="Unconnected"
+        android:fontFamily="@font/sfpromed"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/circadianlogostars2" />
+
+    <Button
+        android:layout_marginTop="600dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/Recorddata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/sfpro"
+        android:text="Record Data" />
+
+    <TextView
+        android:id="@+id/SleepScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="400dp"
+        android:fontFamily="@font/sfproblack"
+        android:text="Sleep Score Will Appear Here"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
