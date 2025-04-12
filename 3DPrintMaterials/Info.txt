@@ -1,0 +1,5 @@
+The 2 GCode files are designed for the Ender-3 V3 SE in mind. Top STL could need scaling.
+
+For both parts:
+-Use PETG (preferably black PETG)
+-Roughly 20%-40% infill 
