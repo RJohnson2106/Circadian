@@ -7,8 +7,8 @@
 ## 🏆 Recognitions
 
 - **Winner, 2023 Congressional App Challenge (NJ‑02)**  
-  Selected by Rep. Jeff Van Drew as the top app from New Jersey's Second District :contentReference[oaicite:1]{index=1}.
-- Among over **11,300 student entrants nationwide**, Circadian stood out for its blend of technical prowess and real‑world impact :contentReference[oaicite:2]{index=2}.
+  Selected by Rep. Jeff Van Drew as the top app from New Jersey's Second District.
+- Among over **11,300 student entrants nationwide**, Circadian stood out for its blend of technical prowess and real‑world impact.
 
 ---
 
